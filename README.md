@@ -1,2 +1,2 @@
-# sviatosik.github.io
-my first public page
+# sviatosik
+hello everybody
