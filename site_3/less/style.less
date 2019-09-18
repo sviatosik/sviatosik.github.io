@@ -1,0 +1,147 @@
+
+
+@cards-block-color: #f1f2f6;
+@btn-one:#f1f2f6;
+@btn-two:#dfe4ea;
+
+
+body{
+  background-color:  @cards-block-color;
+}
+
+.cards{
+  h1{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .btn{
+    width: 10rem;
+    margin-bottom: 2rem;
+    &-two{
+      background-color: #C0C0C0;
+    }
+  }
+  &-block{
+    &:hover{
+      transition: 0.5s;
+      transform: translateY(-10px);
+    }
+    box-shadow: 15px 18px 34px -11px rgba(0,0,0,1);
+    max-width: 21.9rem;
+
+    p{
+      font-family: 'Montserrat', sans-serif;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+    margin-top: 5rem;
+    text-align: center;
+
+    &-header{
+       //width: 100%;
+      //display: block;
+      width: 21.9rem;
+      height: 15rem;
+      //border-bottom: 1px solid green;
+      //margin-bottom: 5rem;
+      //margin-top: 10rem;
+      background-color: #C0C0C0;
+
+    }
+.cards-block-img{
+  margin-top: 5rem;
+
+}
+
+    &-content{
+      //width: 100%;
+      width: 21.9rem;
+      height:15rem ;
+      background-color: #F5F5F5;
+    }
+  }
+
+  .paragraph{
+     text-align: left;
+  }
+
+
+}
+.popup{
+  h1, p{
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5 );
+  &-close{
+    position: absolute;
+    top: 6.5rem;
+    right: 60px;
+    width: 3rem;
+    background-color: transparent;
+    color: #F5F5F5;
+    border: none;
+    //font-size: 50rem;
+  }
+  button{
+    font-size: 3.5rem;
+  }
+  &-content{
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 10%;
+
+    transform:translateX(-50%);
+    padding: 4rem 6rem;
+
+  }
+}
+
+
+
+@media (max-width: 768px) {
+.cards-block{
+  max-width: 21.9rem;
+  max-height: 15rem;
+  margin-bottom: 15rem;
+
+
+}
+
+}
+
+
+@media (max-width: 992px){
+  .cards-block{
+
+
+    &-content{
+      max-width: 21.9rem;
+    }
+
+  }
+
+
+}
+@media  (max-width: 375px) {
+
+  .cards-block{
+    text-align: center;
+    align-items: center;
+  }
+}
