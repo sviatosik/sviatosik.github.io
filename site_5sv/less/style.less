@@ -20,6 +20,7 @@ body{
 
 .information{
   margin-top: 40px;
+  margin-bottom: 2rem;
   text-align: right;
   word-spacing: 20px;
 
@@ -37,6 +38,8 @@ body{
   span,
   span::before,
   span::after{
+    margin-left: 2rem;
+
 
     position: absolute;
     background-color: white;
@@ -50,13 +53,16 @@ body{
      display: block;
 }
 .men span::before{
-  transform:  translateY(-7px);
+  transform:  translateY(-8px) translateX(-32px);
 }
 .men span::after{
-  transform: translateY(7px);
+  transform: translateY(8px) translateX(-32px);
 }
 .me{
     filter: brightness(50%) grayscale(100%);
+}
+.trusted-by{
+  margin-left: 4rem;
 }
 
 
@@ -282,6 +288,21 @@ body{
 }
 }
 
-
+@media (max-width: 450px) {
+  .img-block{
+    img{
+      width: 120%;
+      height: 120%;
+    }
+  }
+  .img-block-first{
+    img{
+      text-align: center;
+      margin-right: 2rem;
+      width: 125%;
+      height: 125%;
+    }
+  }
+}
 
 
