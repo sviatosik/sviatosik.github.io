@@ -30,14 +30,11 @@ section {
   padding-top: 25%;
 }
 .fuck-finger {
-  width: 500px;
-  height: 500px;
   text-align: center;
+  width: 400px;
+  height: 400px;
+  margin-top: 200px;
 }
 .fuck-finger-ops {
   background-color: #16141a;
-}
-.fuck-finger-ops .finger {
-  -webkit-transform: translateX(450px) translateY(150px);
-          transform: translateX(450px) translateY(150px);
 }
