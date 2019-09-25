@@ -11,6 +11,7 @@ body {
 }
 .information {
   margin-top: 40px;
+  margin-bottom: 2rem;
   text-align: right;
   word-spacing: 20px;
 }
@@ -25,6 +26,7 @@ body {
 .men span,
 .men span::before,
 .men span::after {
+  margin-left: 2rem;
   position: absolute;
   background-color: white;
   width: 20px;
@@ -36,16 +38,19 @@ span::after {
   display: block;
 }
 .men span::before {
-  -webkit-transform: translateY(-7px);
-          transform: translateY(-7px);
+  -webkit-transform: translateY(-8px) translateX(-32px);
+          transform: translateY(-8px) translateX(-32px);
 }
 .men span::after {
-  -webkit-transform: translateY(7px);
-          transform: translateY(7px);
+  -webkit-transform: translateY(8px) translateX(-32px);
+          transform: translateY(8px) translateX(-32px);
 }
 .me {
   -webkit-filter: brightness(50%) grayscale(100%);
           filter: brightness(50%) grayscale(100%);
+}
+.trusted-by {
+  margin-left: 4rem;
 }
 .section-second {
   background-color: #16141a ;
@@ -213,5 +218,17 @@ span::after {
   }
   .littlemargin {
     margin-top: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .img-block img {
+    width: 120%;
+    height: 120%;
+  }
+  .img-block-first img {
+    text-align: center;
+    margin-right: 2rem;
+    width: 125%;
+    height: 125%;
   }
 }
