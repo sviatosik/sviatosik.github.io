@@ -20,7 +20,26 @@ section{
 
   }
 }
+//photos
+.section-header{
+  margin-top: 20px;
+  a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+}
 
+.me{
+  text-align: center;
+  img{
+
+    margin-top: 50px;
+    width: 380px;
+    height: 500px;
+  }
+
+}
 
 
 .second, .first{
@@ -33,27 +52,7 @@ section{
 
 }
 
-.fuck-finger-ops{
-  background-color: #16141a;
-  margin-top: 10%;
 
-
-
-
-}
-@media (max-width: (282px)) {
-  .fuck-finger{
-    img{
-      text-align: center;
-      width: 150px;
-      height: 150px;
-      margin-top: 20%;
-
-    }
-
-  }
-
-}
 
 
 //link button
@@ -84,9 +83,9 @@ section{
 .menu-btn span::before,
 .menu-btn span::after {
   position: absolute;
-  top: 50%; margin-top: -0.5px;
+  top: 50%; margin-top: 0.5px;
   left: 50%; margin-left: -10px;
-  width: 20px;
+  width: 19px;
   height: 1px;
   background-color: black;
 
@@ -102,14 +101,14 @@ section{
   height: 0;
 }
 .menu-btn span::before{
-  transform:  rotate(60deg) translateY(-5px);
+  transform:  rotate(60deg) translateY(-7px);
 
 }
 .menu-btn_active span{
   height: 0;
 }
 .menu-btn span::after{
-  transform:  rotate(120deg)translateY(5px);
+  transform:  rotate(120deg)translateY(5px) translateX(-2px);
 }
 .menu-btn_active span::before {
   transform:rotate( 40deg);
@@ -122,3 +121,53 @@ section{
   position: relative;
   text-align: center;
   }
+
+
+
+
+
+//navbar
+
+
+.navbar-default {
+  background-color: #16141a;
+}
+.navbar-brand, .navbar-nav{
+  font-family: 'Poppins', sans-serif;
+       color: #8395a7;
+     }
+.nav-link{
+  color: #c8d6e5;
+
+}
+.navbar-collapse, .navbar{
+  a:hover{
+    color: #8395a7;
+  }
+
+}
+
+.ml-auto{
+  left: auto !important;
+  right: 0;
+}
+
+//link
+section{
+  text-align: center;
+  a:hover{
+    color: #f1f2f6;
+    cursor: pointer;
+  }
+}
+
+.links{
+  a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+}
+
+
+
